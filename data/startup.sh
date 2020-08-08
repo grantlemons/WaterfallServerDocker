@@ -1,1 +1,1 @@
-java -Xms2G -Xmx2G -jar latest.jar
+java -Xms600MB -Xmx600MB -jar latest.jar
