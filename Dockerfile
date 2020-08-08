@@ -2,20 +2,20 @@
 
 FROM openjdk:8-alpine
 
-LABEL name='Minecraft Server' author='Grant Lemons'
+LABEL name='Waterfall Server' author='Grant Lemons'
 
-WORKDIR /home/minecraft
+WORKDIR /home/waterfall
 
-RUN addgroup -g 1000 minecraft `
-&& adduser -Ss /bin/false -u 1000 -G minecraft -h /home/minecraft minecraft `
+RUN addgroup -g 1000 waterfall `
+&& adduser -Ss /bin/false -u 1000 -G waterfall -h /home/waterfall waterfall `
 && mkdir -m 777 /data `
-&& chown minecraft:minecraft /data /home/minecraft `
-&& wget -O "latest.jar" https://papermc.io/api/v1/paper/1.16.1/latest/download
+&& chown waterfall:waterfall /data /home/waterfall `
+&& wget -O "latest.jar" https://papermc.io/api/v1/waterfall//latest/download
 
 EXPOSE 25565
 
-COPY ./data/ /home/minecraft/
+COPY ./data/ /home/waterfall/
 
-RUN chmod 700 /home/minecraft/startup.sh
+RUN chmod 700 /home/waterfall/startup.sh
 
 CMD ./startup.sh
