@@ -11,6 +11,8 @@ permissions:
   - bungeecord.command.end
   - bungeecord.command.ip
   - bungeecord.command.reload
+  - bungeecord.command.send
+  - bungeecord.command.*
 timeout: 30000
 log_commands: false
 network_compression_threshold: 256
@@ -34,6 +36,54 @@ servers:
     motd: '&1Just another Waterfall - Forced Host'
     address: 172.18.0.5:25565
     restricted: false
+  five:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.6:25565
+    restricted: false
+  six:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.7:25565
+    restricted: false
+  seven:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.8:25565
+    restricted: false
+  eight:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.9:25565
+    restricted: false
+  nine:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.10:25565
+    restricted: false
+  ten:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.11:25565
+    restricted: false
+  eleven:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.12:25565
+    restricted: false
+  twelve:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.13:25565
+    restricted: false
+  thirteen:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.14:25565
+    restricted: false
+  fourteen:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.15:25565
+    restricted: false
+  fifteen:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.16:25565
+    restricted: false
+  sixteen:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: 172.18.0.17:25565
+    restricted: false
 listeners:
 - query_port: 25565
   motd: '&1Another Bungee server'
@@ -45,12 +95,36 @@ listeners:
     two.localhost: two
     three.localhost: three
     four.localhost: four
+    five.localhost: five
+    six.localhost: six
+    seven.localhost: seven
+    eight.localhost: eight
+    nine.localhost: nine
+    ten.localhost: ten
+    eleven.localhost: eleven
+    twelve.localhost: twelve
+    thirteen.localhost: thirteen
+    fourteen.localhost: fourteen
+    fifteen.localhost: fifteen
+    sixteen.localhost: sixteen
   ping_passthrough: false
   priorities:
     - one
     - two
     - three
     - four
+    - five
+    - six
+    - seven
+    - eight
+    - nine
+    - ten
+    - eleven
+    - twelve
+    - thirteen
+    - fourteen
+    - fifteen
+    - sixteen
   bind_local_address: true
   host: 0.0.0.0:25565
   max_players: 1
