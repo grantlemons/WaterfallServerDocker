@@ -35,26 +35,32 @@ servers:
     address: 172.18.0.5:25565
     restricted: false
 listeners:
-- query_port: 25577
+- query_port: 25565
   motd: '&1Another Bungee server'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
   forced_hosts:
-    pvp.md-5.net: pvp
+    one.localhost: one
+    two.localhost: two
+    three.localhost: three
+    four.localhost: four
   ping_passthrough: false
   priorities:
-  - lobby
+    - one
+    - two
+    - three
+    - four
   bind_local_address: true
-  host: 0.0.0.0:25577
+  host: 0.0.0.0:25565
   max_players: 1
   tab_size: 60
   force_default_server: false
-ip_forward: false
+ip_forward: true
 remote_ping_timeout: 5000
 prevent_proxy_connections: false
 groups:
-  solidyl:
+  Solidyl:
   - admin
 connection_throttle: 4000
 stats: 6263c576-2e9f-43d3-8a81-f6bc1b289269
