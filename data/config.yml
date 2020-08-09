@@ -22,67 +22,67 @@ disabled_commands:
 servers:
   one:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.2:25565
+    address: 172.18.0.3:25565
     restricted: false
   two:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.3:25565
+    address: 172.18.0.4:25565
     restricted: false
   three:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.4:25565
+    address: 172.18.0.5:25565
     restricted: false
   four:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.5:25565
+    address: 172.18.0.6:25565
     restricted: false
   five:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.6:25565
+    address: 172.18.0.7:25565
     restricted: false
   six:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.7:25565
+    address: 172.18.0.8:25565
     restricted: false
   seven:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.8:25565
+    address: 172.18.0.9:25565
     restricted: false
   eight:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.9:25565
+    address: 172.18.0.10:25565
     restricted: false
   nine:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.10:25565
+    address: 172.18.0.11:25565
     restricted: false
   ten:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.11:25565
+    address: 172.18.0.12:25565
     restricted: false
   eleven:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.12:25565
+    address: 172.18.0.13:25565
     restricted: false
   twelve:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.13:25565
+    address: 172.18.0.14:25565
     restricted: false
   thirteen:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.14:25565
+    address: 172.18.0.15:25565
     restricted: false
   fourteen:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.15:25565
+    address: 172.18.0.16:25565
     restricted: false
   fifteen:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.16:25565
+    address: 172.18.0.17:25565
     restricted: false
   sixteen:
     motd: '&1Just another Waterfall - Forced Host'
-    address: 172.18.0.17:25565
+    address: 172.18.0.18:25565
     restricted: false
 listeners:
 - query_port: 25565
